@@ -27,7 +27,7 @@ categories: DataStructure
 
 i 레벨에서의 이진트리의 최대 노드수는 다음과 같다는 가정을 하자.
 
-<img src="https://latex.codecogs.com/gif.latex?2^{i-1}" title="2^{i-1}" />
+가정 : 레벨 i의 노드 수 = m = <img src="https://latex.codecogs.com/gif.latex?2^{i-1}" title="2^{i-1}" />
 
 
 이진트리는 자식이 최대 두개이다.
@@ -59,7 +59,7 @@ m = 2^(k-1) 이므로 2m = 2^(k-1) x 2 이므로, 2^(k)를 만족한다.
 
 고로 가정은 참이 된다.
 
-<img src="https://latex.codecogs.com/gif.latex?2^{i-1}" title="2^{i-1}" />
+그러므로 i레벨의 노드의 갯수 m  = <img src="https://latex.codecogs.com/gif.latex?2^{i-1}" title="2^{i-1}" /> 이다.
 
 2. 
 
