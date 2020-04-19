@@ -80,3 +80,48 @@ log2(n!) < h
 h >= n * log (n) 이 된다.
 
 
+## 또 다른 증명
+
+여기서는 사전 지식이 필요하다
+Tree의 노드를 두가지로 분류할 것이다.
+Leaf 노드는 External 노드 즉 단말 노드라고 할 것이고,
+그렇지 않은 모든 노드를 Internal 노드 즉 비 단말 노드라고 할 것이다.
+
+비교, 중복되지 않는 좋은 알고리즘의 트리 모양은 Binary Tree가 될 것이고,
+
+External Node의 개수는 아까도 말했듯이 Permutation인 n!이 된다.
+> External Node == Leaf Node
+
+이 경우에, 우리가 알고 싶은건 이 의사결정 나무의 최악의 경우인데,
+
+결국 최악의 경우라는건 Root에서부터 가장 먼 External Node를 찾는 것이다.
+> 가장 많이 비교를 하게 되는 과정을 찾는다는 말과 같다.
+
+External Node의 개수를 m이라고 하자,
+
+가장 깊은 External Node의 Level이 곧, 비교연산의 최악의 회수가 될 것이다.
+
+h의 높이를 갖는 Full Binary Tree의 External Node의 개수는 
+
+2^h가 되므로, 
+
+~~~
+m <= 2^h
+~~~
+
+위 수식을 만족하게 된다.
+
+또한, Full Bianry Tree의 높이 h는 
+~~~
+h >= log2(m)
+~~~
+위 수식을 만족하게 되고, 
+
+m = n! 이므로,
+> External Node == Leaf Node
+
+~~~
+h >= log2(n!)
+~~~
+위 수식을 만족하게 되는 것이다.
+
