@@ -61,11 +61,21 @@ m = 2^(k-1) 이므로 2m = 2^(k-1) x 2 이므로, 2^(k)를 만족한다.
 
 그러므로 i레벨의 노드의 갯수 m  = <img src="https://latex.codecogs.com/gif.latex?2^{i-1}" title="2^{i-1}" /> 이다.
 
-2. 
+### Depth d 에서 이진트리의 최대 노드의 개수
 
-정 이진 트리에서의 높이 i에 해당하는 노드의
+가정 : Depth d에서 이진트리의 최대 노드의 개수는 <img src="https://latex.codecogs.com/gif.latex?2^{d}-1" title="2^{d}-1" /> 이다.
 
-<br/>
-<br/>
+![](/assets/post/depth_d.JPG)
+
+초항이 1이고, 등비가 2인 등비수열의 합을 구하는 간단한 공식은 다음과 같다.
+
+다음과 같이 생각을 해보는 것이다.
+
+![](/assets/post/binary_math.png)
+
+
+~~~
+고로 Depth 가 d인 이진트리의 최대 노드의 개수는  2^(d) - 1 이 된다
+~~~
 
 
