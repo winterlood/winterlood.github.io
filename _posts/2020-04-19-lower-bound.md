@@ -28,7 +28,7 @@ categories: Algorithm DataStructure
 
 ## 의사 결정 나무 (Decision Tree)
 
-![](./../assets/post/decisiontree.png)
+![](/assets/post/decisiontree.png)
 > 의사 결정 나무의 그림이다.
 
 비교를 하여 정렬하는 알고리즘은 추상적인 관점에서,
