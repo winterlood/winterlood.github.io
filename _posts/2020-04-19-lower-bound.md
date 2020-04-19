@@ -7,6 +7,9 @@ categories: Algorithm DataStructure
 
 비교 정렬 알고리즘의 하한 그리고 의사결정나무에 대하여,
 
+
+# 비교 정렬 알고리즘의 하한
+
 정렬에는 여러가지 종류가 있다.
 
 - 삽입 정렬
@@ -17,3 +20,7 @@ categories: Algorithm DataStructure
 
 이러한 정렬들은 단순 데이터의 크기를 비교하여, 수행하게 되는데,
 이러한 정렬 방식을 **Comparison sort**라고 한다.
+
+이러한 정렬 방식의 수행 시간 T에 대하여 **T >= nlogn** 이라는 한계를 가지고 있는데,
+> 아무리 빨리 해도, nlogn 보다 빠르게 수행될 수 는 없다는 뜻 이다.
+
